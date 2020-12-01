@@ -8,3 +8,7 @@ Como parte de este trabajo se ha implementado un Sistema de Inferencia basado en
 
 •	Utilizar diferentes métodos de desdifusificación (Centroid, Bisector, LOM y SOM) o agregar otros
 
+
+![](img/diagram-1.png)
+
+![](img/diagram-2.png)
