@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzzyInferenceSystem", "FuzzyInferenceSystem\FuzzyInferenceSystem.csproj", "{A3BBF99F-645C-41B0-95F5-5DFAF34CD277}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenMF", "GenMF\GenMF.csproj", "{D14ED4A5-DFFC-47A6-9040-31589E794281}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{1A43F91A-BD0F-4137-AA37-E00F77E4E893}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TippingProblem", "TippingProblem\TippingProblem.csproj", "{689F088A-0AF2-4190-9EFD-D4B05FBEE83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3BBF99F-645C-41B0-95F5-5DFAF34CD277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BBF99F-645C-41B0-95F5-5DFAF34CD277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BBF99F-645C-41B0-95F5-5DFAF34CD277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BBF99F-645C-41B0-95F5-5DFAF34CD277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14ED4A5-DFFC-47A6-9040-31589E794281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14ED4A5-DFFC-47A6-9040-31589E794281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14ED4A5-DFFC-47A6-9040-31589E794281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14ED4A5-DFFC-47A6-9040-31589E794281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689F088A-0AF2-4190-9EFD-D4B05FBEE83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689F088A-0AF2-4190-9EFD-D4B05FBEE83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689F088A-0AF2-4190-9EFD-D4B05FBEE83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689F088A-0AF2-4190-9EFD-D4B05FBEE83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{689F088A-0AF2-4190-9EFD-D4B05FBEE83E} = {1A43F91A-BD0F-4137-AA37-E00F77E4E893}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F85D8562-3005-439D-B449-1B7D72458075}
+	EndGlobalSection
+EndGlobal

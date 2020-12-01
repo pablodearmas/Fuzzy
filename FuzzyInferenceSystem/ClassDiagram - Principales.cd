@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FuzzyLogic.FuzzyInferenceSystem">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>FuzzyInferenceSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="KB" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FuzzyLogic.KnowledgeBase">
+    <Position X="4.25" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAABAAAAAgAAAAAAAAAAAEAAgAAAAEgAA=</HashCode>
+      <FileName>KnowledgeBase\KnowledgeBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="variables" />
+      <Field Name="rules" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FuzzyLogic.Rule" Collapsed="true">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAIACAAAAAAQAEAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KnowledgeBase\Rule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyLogic.LinguisticVar&lt;TTermLabels&gt;">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAACAQQAEABAAAEAAAIAAAAAAAA=</HashCode>
+      <FileName>LinguisticVar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="terms" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FuzzyLogic.FuzzySet">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FuzzySet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FuzzyLogic.ILinguisticVar" Collapsed="true">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILinguisticVar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
